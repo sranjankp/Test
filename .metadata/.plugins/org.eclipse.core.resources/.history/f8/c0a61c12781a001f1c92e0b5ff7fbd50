@@ -1,0 +1,122 @@
+package Test1;
+
+import java.util.LinkedList;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
+
+import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
+//import org.testng.annotations.Test;
+import io.restassured.RestAssured;
+import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.builder.ResponseSpecBuilder;
+import io.restassured.filter.log.LogDetail;
+import io.restassured.http.ContentType;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.chrome.ChromeDriver;
+import java.util.Set;
+import java.util.concurrent.TimeUnit;
+import java.time.Duration;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.ArrayDeque;
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.NoSuchElementException;
+import java.util.Scanner;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.Point;
+import org.openqa.selenium.SearchContext;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.devtools.idealized.Javascript;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.FindBys;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+import org.testng.ITestListener;
+import org.testng.ITestResult;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
+//import org.testng.annotations.Test;
+import org.testng.internal.annotations.IListeners;
+import dev.failsafe.internal.util.Durations;
+import groovyjarjarantlr4.v4.codegen.model.Action;
+import org.testng.annotations.Parameters;
+import io.restassured.RestAssured;
+import io.restassured.http.Header;
+import io.restassured.http.Headers;
+import io.restassured.http.Method;
+import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
+import io.restassured.response.ResponseOptions;
+import io.restassured.specification.RequestSpecification;
+import net.bytebuddy.build.RepeatedAnnotationPlugin;
+import scala.math.Ordering.SymbolOrdering;
+import io.restassured.path.json.JsonPath;
+
+import java.awt.Window;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.rmi.AccessException;
+import java.sql.Array;
+import org.openqa.selenium.TakesScreenshot;
+import java.io.File;
+import java.util.HashSet;
+import org.apache.commons.collections4.bag.SynchronizedSortedBag;
+import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.serialization.ValidatingObjectInputStream;
+import org.json.simple.JSONObject;
+import org.apache.poi.ss.usermodel.DataFormatter;
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import io.restassured.authentication.PreemptiveBasicAuthScheme;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+public class Test1 {
+public static void main(String[] args) {
+	int list[] = {1,2,4,5,1,2,6,7,8,4};
+	int l = list.length;
+	for(int i=0;i<=l;i++)
+	{
+		for(int j=i+1;j<=l;j++){
+		if(list[i]==list[j])
+		{
+			list[i]=-1;
+		}
+	   }
+		
+	 }
+	for(int k=0;l<=l;l++)
+	{
+		if((list[k])!=-1)
+		{
+			System.out.print(list[k]);
+		}
+	}
+	}
+
+}
